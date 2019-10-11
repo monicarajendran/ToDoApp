@@ -20,6 +20,7 @@ class Task: Object {
 class TaskList: Object {
     @objc dynamic var title = ""
     @objc dynamic var createdAt = Date()
+    @objc dynamic var modifiedAt = Date()
     let tasks = List<Task>()
 }
 
